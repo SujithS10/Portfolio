@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background-color: #030323;
+    color: white;
+}
+
+html {
+    background-color: #030323;
+}
+
+:root {
+    --primary-color:
+    --secondary-color:
+    --primary-hover:
+    --secondary-hover:
+}
+
+.nav-bar {
+    margin: 8px;
+    padding: 8px;
+
+}
+
+.hero-section {
+    
+}
+
+.hero-left {
+    margin-top: 30vh;
+}
+
+#primary-span-color {
+    color:rgb(0, 213, 213);
+}
+
+.hero-copy {
+    max-width: 50%;
+}
+.hero-copy h1 {
+    font-weight: bolder;
+    color: rgb(0, 213, 213);
+}
+
+.link-icons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.link-icons > * {
+    background-color: aqua;
+    width: 32px;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    
+}
+.hero-right button {
+    background-color: aqua;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    transition: 0.2s;
+    color: white;
+
+    &:hover {
+        box-shadow: 0 0 10px aqua;
+        transition: 0.2s;
+    }
+}
